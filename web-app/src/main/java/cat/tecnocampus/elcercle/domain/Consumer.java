@@ -15,7 +15,7 @@ public class Consumer {
         for (OrganicLot discount: discounts) {
             discount_amount += discount.get_discount();
         }
-        double final_price = product.getPrice() - discount_amount
+        double final_price = product.getPrice() - discount_amount;
         if (final_price< 0 )
             return 0;
         return final_price;
