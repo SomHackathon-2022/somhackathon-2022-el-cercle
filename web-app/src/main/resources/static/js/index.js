@@ -6,7 +6,7 @@ function changeImg(index) {
     document.getElementById(id).src = img_array[indexes[index]];
     indexes[index] ++;
     if (indexes[index] == img_array.length - 1) {
-        indexes[index] = -1;
-
+        indexes[index] = 0;
     }
+    alert(img_array[indexes[index]]);
 }
