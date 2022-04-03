@@ -6,6 +6,27 @@ Organigrama: https://lucid.app/lucidchart/9500ee63-850a-4308-9161-323b7684c2de/e
 
 ![image](https://user-images.githubusercontent.com/60795194/161408150-9725eef0-f743-4a44-bfa3-dafd57ad1705.png)
 
+# Demostració d'execució:
+
+Es mostra el nucli de l'aplicació en funcionament, mantenint alhora un disseny gràfic que procura ser atractiu i complir la funció de cridar l'atenció del públic. Aquesta és l'estratègia per fomentar les pràctiques sostenibles.
+
+S'ha implementat un portal on un restaurant (o d'altres tipus de consumidors de recursos naturals) pot consultar el material orgànic que ha arribat a reciclar. De la mateixa manera, es pot consultar la quantitat de fruites i verdures que s'han pogut generar gràcies a aquests béns, anteriorment només residuals però que s'han convertit en un recurs valuós.
+
+
+
+A més, però, s'ha implementar crides API REST per a consultar i actualitzar la base de dades. Es podria acabar desenvolupant per a formar un projecte d'Open Data.
+
+
+Finalment, s'ha volgut consolidar una plataforma de Back Office per a facilitar els tràmits que durà la nostra empresa en gestionar els materials donats i generats pels restaurants (o d'altres consumidors). És compatible amb les crides API REST via navegador o eines com Postman.
+
+# Estructura del programa:
+
+
+
+![image](https://user-images.githubusercontent.com/60795194/161414381-e01df626-fb13-47bd-94ee-8d6dc87eb96e.png)
+![image](https://user-images.githubusercontent.com/60795194/161414425-5f2c046c-562f-42c6-9f2a-e995be52a88f.png)
+
+
 # Dissseny d'aplicació:
 
 ![el_cercle_main_restaurant](https://user-images.githubusercontent.com/60795194/161408180-26a59fff-6881-4646-9ee2-b1c4e3ede688.png)
