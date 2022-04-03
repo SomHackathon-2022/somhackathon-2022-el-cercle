@@ -54,3 +54,15 @@ function update_values(){
 }
 
 
+
+
+
+function add_organic() {
+    let quantitat = document.getElementById("organic_quantity").value;
+    let url = 'http://localhost:8080/organic/' + quantitat;
+    $.ajax({
+        url: url,
+        type: 'POST',
+        success: function(result) {alert("S'ha afegit la quantitat de matèria orgànica correctament.")}
+    });
+}

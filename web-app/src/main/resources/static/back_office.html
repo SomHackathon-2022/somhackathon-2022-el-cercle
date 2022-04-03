@@ -32,7 +32,30 @@
 <img src="/images/background_web_consumer_back_office.png" alt="el_cercle_background_BACK_OFFICE" style="width:100%;">
 <div class="centered" id = "organic_quantity_div"></div>
 
-<div class="top-left" id = "strawberries_quantity_div"></div>
+<div class="top-left" id = "strawberries_quantity_div">
+
+
+
+    <div class="product-action-wrap">
+        <div class="prodict-statas"><span>Quantitat :</span></div>
+        <div class="product-quantity">
+            <form id='myform' method='POST' action='#'>
+                <div class="product-quantity">
+                    <div class="cart-plus-minus" id="cart_quantity">
+                        <input class="cart-plus-minus-box" id="organic_quantity" type="text" name="qtybutton" value="1">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <ul class="pro__dtl__btn" id="product_buttons">
+        <li><button class="buy__now__btn" id="organic_button" type="button" onclick="add_organic()"> Afegir </button></li>
+    </ul>
+
+
+
+
+</div>
 <div class="top-right" id = "potatoes_quantity_div"></div>
 <div class="bottom-left" id = "oranges_quantity_div"></div>
 <div class="bottom-right" id = "lettuces_quantity_div"></div>
