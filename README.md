@@ -16,12 +16,25 @@ S'ha implementat un portal on un restaurant (o d'altres tipus de consumidors de 
 
 A més, però, s'ha implementar crides API REST per a consultar i actualitzar la base de dades. Es podria acabar desenvolupant per a formar un projecte d'Open Data.
 
+Crides d'exemple:
+POST (o GET sense el paràmetre)
+
+localhost:8080/organic/10
+
+localhost:8080/strawberries/20
+
+localhost:8080/potatoes/3.4
+
+localhost:8080/oranges/6
+
+localhost:8080/lettuces/2
+
 
 Finalment, s'ha volgut consolidar una plataforma de Back Office per a facilitar els tràmits que durà la nostra empresa en gestionar els materials donats i generats pels restaurants (o d'altres consumidors). És compatible amb les crides API REST via navegador o eines com Postman.
 
 # Estructura del programa:
 
-
+S'ha organitzat una base per a l'aplicació, seguint l'arquitectura del software de Capes, i fent ús d'elements com DAOs, DTOs, o base de dades H2
 
 ![image](https://user-images.githubusercontent.com/60795194/161414381-e01df626-fb13-47bd-94ee-8d6dc87eb96e.png)
 ![image](https://user-images.githubusercontent.com/60795194/161414425-5f2c046c-562f-42c6-9f2a-e995be52a88f.png)
