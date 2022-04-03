@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style_back_office.css">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="images/el_cercle_favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/el_cercle_favicon_back_office.ico">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/back_office.js"></script>
@@ -20,7 +20,51 @@
         h3 {
             font-family: "Montserrat ExtraBold", regular;
             color: #212121;
+            font-size: 36px;
+        }
+        .quantity_tag {
+            font-family: "Montserrat ExtraBold", regular;
+            color: #212121;
             font-size: 18px;
+        }
+
+        .add_quantity_btn {
+            font-family: "Montserrat ExtraBold", regular;
+            color: #00FF9F;
+            font-size: 18px;
+            background-color: #ACACAC;
+            border: none;
+            padding: 15px 25px;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 9px #00FF9F;
+        }
+
+        .add_quantity_btn:hover {
+            color: #fff;
+            background-color: #00FF9F;
+            box-shadow: 0 9px #CC6D5F;
+        }
+
+        .add_quantity_btn:active {
+            background-color: #00FF9F;
+            box-shadow: 0 5px #CC6D5F;
+            transform: translateY(4px);
+        }
+
+        .cart-plus-minus-box {
+            font-family: "Montserrat ExtraBold", regular;
+            font-size: 25px;
+            background-color: #fff;
+            border: none;
+            padding: 5px 5px;
+            margin: 10px 10px;
+            outline: none;
+            color: #212121;
+            border-radius: 15px;
+            text-align: center;
         }
     </style>
 </head>
@@ -32,7 +76,7 @@
 <img src="/images/background_web_consumer_back_office.png" alt="el_cercle_background_BACK_OFFICE" style="width:100%;">
 <div class="centered" id = "organic_quantity_div">
     <div class="product-action-wrap">
-        <div class="prodict-statas"><span>Quantitat :</span></div>
+        <div class="quantity_tag"><span>Quantitat :</span></div>
         <div class="product-quantity">
             <form id='myform1' method='POST' action='#'>
                 <div class="product-quantity">
@@ -44,14 +88,14 @@
         </div>
     </div>
     <ul class="pro__dtl__btn" id="product_buttons1">
-        <li><button class="buy__now__btn" id="organic_button" type="button" onclick="add_organic()"> Afegir </button></li>
+        <li><button class="add_quantity_btn" id="organic_button" type="button" onclick="add_organic()"> Afegir </button></li>
     </ul>
 </div>
 
 <div class="top-left" id = "strawberries_quantity_div">
 
     <div class="product-action-wrap">
-        <div class="prodict-statas"><span>Quantitat :</span></div>
+        <div class="quantity_tag"><span>Quantitat :</span></div>
         <div class="product-quantity">
             <form id='myform' method='POST' action='#'>
                 <div class="product-quantity">
@@ -63,7 +107,7 @@
         </div>
     </div>
     <ul class="pro__dtl__btn" id="product_buttons">
-        <li><button class="buy__now__btn" id="strawberries_button" type="button" onclick="add_strawberries()"> Afegir </button></li>
+        <li><button class="add_quantity_btn" id="strawberries_button" type="button" onclick="add_strawberries()"> Afegir </button></li>
     </ul>
 
 
@@ -73,7 +117,7 @@
 
 <div class="top-right" id = "potatoes_quantity_div">
     <div class="product-action-wrap">
-        <div class="prodict-statas"><span>Quantitat :</span></div>
+        <div class="quantity_tag"><span>Quantitat :</span></div>
         <div class="product-quantity">
             <form id='myform3' method='POST' action='#'>
                 <div class="product-quantity">
@@ -85,13 +129,13 @@
         </div>
     </div>
     <ul class="pro__dtl__btn" id="product_buttons3">
-        <li><button class="buy__now__btn" id="potatoes_button" type="button" onclick="add_potatoes()"> Afegir </button></li>
+        <li><button class="add_quantity_btn" id="potatoes_button" type="button" onclick="add_potatoes()"> Afegir </button></li>
     </ul>
 </div>
 
 <div class="bottom-left" id = "oranges_quantity_div">
         <div class="product-action-wrap">
-            <div class="prodict-statas"><span>Quantitat :</span></div>
+            <div class="quantity_tag"><span>Quantitat :</span></div>
             <div class="product-quantity">
                 <form id='myform4' method='POST' action='#'>
                     <div class="product-quantity">
@@ -103,13 +147,13 @@
             </div>
         </div>
         <ul class="pro__dtl__btn" id="product_buttons4">
-            <li><button class="buy__now__btn" id="oranges_button" type="button" onclick="add_oranges()"> Afegir </button></li>
+            <li><button class="add_quantity_btn" id="oranges_button" type="button" onclick="add_oranges()"> Afegir </button></li>
         </ul>
 </div>
 
 <div class="bottom-right" id = "lettuces_quantity_div">
         <div class="product-action-wrap">
-            <div class="prodict-statas"><span>Quantitat :</span></div>
+            <div class="quantity_tag"><span>Quantitat :</span></div>
             <div class="product-quantity">
                 <form id='myform5' method='POST' action='#'>
                     <div class="product-quantity">
@@ -121,7 +165,7 @@
             </div>
         </div>
         <ul class="pro__dtl__btn" id="product_buttons5">
-            <li><button class="buy__now__btn" id="lettuces_button" type="button" onclick="add_lettuces()"> Afegir </button></li>
+            <li><button class="add_quantity_btn" id="lettuces_button" type="button" onclick="add_lettuces()"> Afegir </button></li>
         </ul>
 </div>
 
