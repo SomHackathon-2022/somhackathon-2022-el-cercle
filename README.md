@@ -64,6 +64,8 @@ S'ha organitzat una base per a l'aplicació, construïda en Java seguint el fram
 
 # Dissseny d'aplicació:
 
+Preparació d'altres planes rellevants però que no són tant nuclears per al negoci com les de la demostració tècnica prèvia.
+
 ![el_cercle_main_restaurant](https://user-images.githubusercontent.com/60795194/161408180-26a59fff-6881-4646-9ee2-b1c4e3ede688.png)
 
 ![el_cercle_organic_restaurant](https://user-images.githubusercontent.com/60795194/161408193-e0ef45da-a218-42dd-8b7b-fa2ab3499f3d.png)
