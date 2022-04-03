@@ -10,28 +10,28 @@ img{
 
 .bottom-left {
     position: absolute;
-    bottom: -10%;
+    bottom: -2%;
     left: 54%;
 }
 
 .top-left {
     position: absolute;
-    top: 62%;
+    top: 57%;
     left: 54%;
 }
 
 .top-right {
     position: absolute;
-    top: 62%;
+    top: 57%;
     right: 8%;
 }
 
 .bottom-right {
     position: absolute;
-    bottom: -10%;
+    bottom: -2%;
     right: 8%;
 }
-
+Z
 .centered {
     position: absolute;
     top: 30%;

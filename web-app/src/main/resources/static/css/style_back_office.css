@@ -10,31 +10,31 @@ img{
 
 .bottom-left {
     position: absolute;
-    bottom: -22%;
+    bottom: -16%;
     left: 45%;
 }
 
 .top-left {
     position: absolute;
-    top: 59%;
+    top: 56%;
     left: 45%;
 }
 
 .top-right {
     position: absolute;
-    top: 59%;
+    top: 56%;
     right: 12%;
 }
 
 .bottom-right {
     position: absolute;
-    bottom: -22%;
+    bottom: -16%;
     right: 12%;
 }
 
 .centered {
     position: absolute;
-    top: 76%;
+    top: 74%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
