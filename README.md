@@ -6,7 +6,7 @@ Organigrama: https://lucid.app/lucidchart/9500ee63-850a-4308-9161-323b7684c2de/e
 
 ![image](https://user-images.githubusercontent.com/60795194/161408150-9725eef0-f743-4a44-bfa3-dafd57ad1705.png)
 
-# Dissseny d'aplicació!
+# Dissseny d'aplicació:
 
 ![el_cercle_main_restaurant](https://user-images.githubusercontent.com/60795194/161408180-26a59fff-6881-4646-9ee2-b1c4e3ede688.png)
 
@@ -22,3 +22,4 @@ Organigrama: https://lucid.app/lucidchart/9500ee63-850a-4308-9161-323b7684c2de/e
 
 ![7_RESTAURANT_el_cercle_main_restaurant](https://user-images.githubusercontent.com/60795194/161408200-eed655f3-fbd9-4260-8372-572670298f1e.png)
 
+![idees_futures](https://user-images.githubusercontent.com/60795194/161414342-e24cfdb1-dcbd-41d8-a8d2-51a6a8c72574.png)
