@@ -34,7 +34,7 @@ Finalment, s'ha volgut consolidar una plataforma de Back Office per a facilitar 
 
 # Estructura del programa:
 
-S'ha organitzat una base per a l'aplicació, seguint l'arquitectura del software de Capes, i fent ús d'elements com DAOs, DTOs, o base de dades H2
+S'ha organitzat una base per a l'aplicació, construïda en Java seguint el framework d'Spring, tot seguint l'arquitectura del software de Capes, i fent ús d'elements com DAOs, DTOs, o base de dades H2.
 
 ![image](https://user-images.githubusercontent.com/60795194/161414381-e01df626-fb13-47bd-94ee-8d6dc87eb96e.png)
 ![image](https://user-images.githubusercontent.com/60795194/161414425-5f2c046c-562f-42c6-9f2a-e995be52a88f.png)
