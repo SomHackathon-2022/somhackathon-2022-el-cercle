@@ -1,18 +1,19 @@
 <!doctype html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html class="no-js" lang="en">
 <head>
     <!-- Required meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/elcercle_favicon.ico">
+
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <title>Hello, world!</title>
+    <title>el cercle | Restaurant TecnoCampus</title>
 </head>
 <body>
+<button>Send an HTTP GET request to a page and get the result back</button>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -29,7 +30,7 @@
 <p th:text="'Hello, ' + ${name} + '!'"/>
 
 <img src="/images/background_web_consumer.png" alt="el_cercle_background" style="width:100%;">
-<div class="centered">Centered</div>
+<div class="centered" id = "organic_quantity_div">Centered</div>
 
 </body>
 </html>
