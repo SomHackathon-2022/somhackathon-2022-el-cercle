@@ -70,7 +70,7 @@ Preparació d'altres planes rellevants però que no són tant nuclears per al ne
 
 ![el_cercle_organic_restaurant](https://user-images.githubusercontent.com/60795194/161408193-e0ef45da-a218-42dd-8b7b-fa2ab3499f3d.png)
 
-[el_cercle_buy_restaurant](https://user-images.githubusercontent.com/60795194/161408167-9038dce4-4b0c-42ca-b5de-bb22286c0519.png)
+![el_cercle_buy_restaurant](https://user-images.githubusercontent.com/60795194/161408167-9038dce4-4b0c-42ca-b5de-bb22286c0519.png)
 
 ![el_cercle_main_farmer](https://user-images.githubusercontent.com/60795194/161408177-516bd2c0-3598-4d8d-95f3-b329088e4a69.png)
 
