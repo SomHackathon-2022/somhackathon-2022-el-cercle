@@ -66,3 +66,43 @@ function add_organic() {
         success: function(result) {alert("S'ha afegit la quantitat de matèria orgànica correctament.")}
     });
 }
+
+function add_strawberries() {
+    let quantitat = document.getElementById("strawberries_quantity").value;
+    let url = 'http://localhost:8080/strawberries/' + quantitat;
+    $.ajax({
+        url: url,
+        type: 'POST',
+        success: function(result) {alert("S'ha afegit la quantitat de maduixes correctament.")}
+    });
+}
+
+function add_potatoes() {
+    let quantitat = document.getElementById("potatoes_quantity").value;
+    let url = 'http://localhost:8080/potatoes/' + quantitat;
+    $.ajax({
+        url: url,
+        type: 'POST',
+        success: function(result) {alert("S'ha afegit la quantitat de patates correctament.")}
+    });
+}
+
+function add_oranges() {
+    let quantitat = document.getElementById("oranges_quantity").value;
+    let url = 'http://localhost:8080/oranges/' + quantitat;
+    $.ajax({
+        url: url,
+        type: 'POST',
+        success: function(result) {alert("S'ha afegit la quantitat de taronges correctament.")}
+    });
+}
+
+function add_lettuces() {
+    let quantitat = document.getElementById("lettuces_quantity").value;
+    let url = 'http://localhost:8080/lettuces/' + quantitat;
+    $.ajax({
+        url: url,
+        type: 'POST',
+        success: function(result) {alert("S'ha afegit la quantitat d'enciams correctament.")}
+    });
+}

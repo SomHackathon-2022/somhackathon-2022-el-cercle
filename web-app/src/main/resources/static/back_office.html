@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_back_office.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="images/el_cercle_favicon.ico">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -15,12 +15,12 @@
         h2 {
             font-family: "Fugaz One", regular;
             color: #212121;
-            font-size: 110px;
+            font-size: 48px;
         }
         h3 {
             font-family: "Montserrat ExtraBold", regular;
             color: #212121;
-            font-size: 74px;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -30,11 +30,25 @@
 
 
 <img src="/images/background_web_consumer_back_office.png" alt="el_cercle_background_BACK_OFFICE" style="width:100%;">
-<div class="centered" id = "organic_quantity_div"></div>
+<div class="centered" id = "organic_quantity_div">
+    <div class="product-action-wrap">
+        <div class="prodict-statas"><span>Quantitat :</span></div>
+        <div class="product-quantity">
+            <form id='myform1' method='POST' action='#'>
+                <div class="product-quantity">
+                    <div class="cart-plus-minus" id="cart_quantity1">
+                        <input class="cart-plus-minus-box" id="organic_quantity" type="text" name="qtybutton" value="1">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <ul class="pro__dtl__btn" id="product_buttons1">
+        <li><button class="buy__now__btn" id="organic_button" type="button" onclick="add_organic()"> Afegir </button></li>
+    </ul>
+</div>
 
 <div class="top-left" id = "strawberries_quantity_div">
-
-
 
     <div class="product-action-wrap">
         <div class="prodict-statas"><span>Quantitat :</span></div>
@@ -42,22 +56,74 @@
             <form id='myform' method='POST' action='#'>
                 <div class="product-quantity">
                     <div class="cart-plus-minus" id="cart_quantity">
-                        <input class="cart-plus-minus-box" id="organic_quantity" type="text" name="qtybutton" value="1">
+                        <input class="cart-plus-minus-box" id="strawberries_quantity" type="text" name="qtybutton" value="1">
                     </div>
                 </div>
             </form>
         </div>
     </div>
     <ul class="pro__dtl__btn" id="product_buttons">
-        <li><button class="buy__now__btn" id="organic_button" type="button" onclick="add_organic()"> Afegir </button></li>
+        <li><button class="buy__now__btn" id="strawberries_button" type="button" onclick="add_strawberries()"> Afegir </button></li>
     </ul>
 
 
 
 
 </div>
-<div class="top-right" id = "potatoes_quantity_div"></div>
-<div class="bottom-left" id = "oranges_quantity_div"></div>
-<div class="bottom-right" id = "lettuces_quantity_div"></div>
+
+<div class="top-right" id = "potatoes_quantity_div">
+    <div class="product-action-wrap">
+        <div class="prodict-statas"><span>Quantitat :</span></div>
+        <div class="product-quantity">
+            <form id='myform3' method='POST' action='#'>
+                <div class="product-quantity">
+                    <div class="cart-plus-minus" id="cart_quantity3">
+                        <input class="cart-plus-minus-box" id="potatoes_quantity" type="text" name="qtybutton" value="1">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <ul class="pro__dtl__btn" id="product_buttons3">
+        <li><button class="buy__now__btn" id="potatoes_button" type="button" onclick="add_potatoes()"> Afegir </button></li>
+    </ul>
+</div>
+
+<div class="bottom-left" id = "oranges_quantity_div">
+        <div class="product-action-wrap">
+            <div class="prodict-statas"><span>Quantitat :</span></div>
+            <div class="product-quantity">
+                <form id='myform4' method='POST' action='#'>
+                    <div class="product-quantity">
+                        <div class="cart-plus-minus" id="cart_quantity4">
+                            <input class="cart-plus-minus-box" id="oranges_quantity" type="text" name="qtybutton" value="1">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <ul class="pro__dtl__btn" id="product_buttons4">
+            <li><button class="buy__now__btn" id="oranges_button" type="button" onclick="add_oranges()"> Afegir </button></li>
+        </ul>
+</div>
+
+<div class="bottom-right" id = "lettuces_quantity_div">
+        <div class="product-action-wrap">
+            <div class="prodict-statas"><span>Quantitat :</span></div>
+            <div class="product-quantity">
+                <form id='myform5' method='POST' action='#'>
+                    <div class="product-quantity">
+                        <div class="cart-plus-minus" id="cart_quantity5">
+                            <input class="cart-plus-minus-box" id="lettuces_quantity" type="text" name="qtybutton" value="1">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <ul class="pro__dtl__btn" id="product_buttons5">
+            <li><button class="buy__now__btn" id="lettuces_button" type="button" onclick="add_lettuces()"> Afegir </button></li>
+        </ul>
+</div>
+
 </body>
 </html>
